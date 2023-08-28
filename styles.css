@@ -1,3 +1,6 @@
+:root {
+    --credit-card-back-information-background-color: #C4C4C4;
+}
 html, body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -51,12 +54,12 @@ html, body {
 }
 .credit-card-back .information-wrapper .name {
     font-family: 'Cedarville Cursive', cursive;
-    background-color: #C4C4C4;
+    background-color: var(--credit-card-back-information-background-color);
     font-size: 20px;
     margin: 0;
     padding: 0 20px 0 20px;
 }
 .credit-card-back .information-wrapper .number {
-    background-color: #C4C4C4;
+    background-color: var(--credit-card-back-information-background-color);
     margin: 0;
 }
